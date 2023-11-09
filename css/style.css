@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrap{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1abc9c;
+}
+
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    margin: 1rem;
+}
+
+.top{
+    text-align: center;
+    padding: 2rem;
+    background-color: #16a185;
+    color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: 500;
+}
+
+form{
+    padding: 2rem;
+}
+
+i{
+    font-size: 1.45rem;
+    background-color: #16a185;
+    padding: 0.5rem 0.65rem;
+    text-align: center;
+    width: 3.25rem;
+    color: #fff;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.lock{
+    font-size: 1.35rem;
+}
+
+.same{
+    display: block;
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border: 2px solid lightgrey;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #16a185;
+    border-left: none;
+}
+
+input::placeholder{
+    font-size: 1rem;
+}
+
+.pass{
+    margin-bottom: 0.25rem;
+}
+
+.green{
+    color: #16a185;
+    text-decoration: none;
+}
+
+.forgot{
+    
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn{
+    background-color: #16a185;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 0.35rem 1rem 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.foot{
+    text-align: center;
+}
